@@ -1,0 +1,685 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* WHAT IS START */
+#what_is {
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(0,0,0,0.5);
+	position: absolute;
+	z-index: 999;
+	display: none;
+	transition: 0.3s ease;
+}
+
+.what_is_desc {
+	width: 600px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	padding: 30px;
+	text-align: justify;
+}
+
+.what_is_desc p {
+	margin-top: 50px;
+}
+
+.what_is_desc button {
+	color: #eee;
+	float: right;
+	margin-top: -40px;
+	background-color: transparent;
+	border: none;
+}
+
+.what_is_desc button:hover {
+	color: #323232;
+	transition: 0.3s ease;
+}
+/* WHAT IS END */
+
+/* HERO START */
+.hero_container {
+	width: 100%;
+	height: auto;
+	background-color:#3a539b;
+	text-align: center;
+}
+
+.jumbotron-fluid {
+	background-color: #3a539b;
+	/*background-color: red;*/
+	height: 300px;
+}
+
+.jumbotron-fluid p {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.jumbotron-fluid button h1 {
+	font-weight: 600;
+	font-size: 54px;
+}
+
+.hero_icons {
+	/*background-color: salmon;	*/
+	float: right;
+	margin-top: 50px;
+}
+
+.hero_icons a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+	margin-left: 20px;
+}
+
+.hero_icons a:hover {
+	color: #fff;
+	transition: 0.3s ease;
+}
+
+.hero_container_bot {
+	width: 100%;
+	height: 150px;
+	/*background-color: red;*/
+	margin-top: -20px;
+}
+
+.hero_left {
+	float: left;
+	width: 70%;
+	/*background-color: blue;*/
+}
+
+.hero_right {
+	float: right;
+	width: 30%;
+	/*background: yellow;*/
+	text-align: right;
+}
+
+.hero_right button {
+	color: #3a539b;
+	border: 1px solid #3a539b;
+	border-radius: 10px;
+	background-color: transparent;
+	width: 200px;
+	height: 60px;
+	margin-top: 10px;
+}
+
+
+.hero_right button:hover {
+	background-color: #eee;
+	transition: 0.3s ease;
+}
+
+.profile {
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+	float: left;
+}
+
+.profile img {
+	width: 100%;
+	border-radius: 50%;
+	border: 6px solid #fff;
+}
+
+.profile_text {
+	/*background-color: salmon;*/
+	float: left;
+}
+
+.profile_text .profesi {
+	width: 120px;
+	height: 40px;
+	background-color: #eee;
+	color: #3a539b;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+/* HERO END */
+
+/* GALLERY START */
+.gallery_design {
+	width: 100%;
+	/*background-color: red;*/
+	margin-top: -20px;
+}
+/* GALLERY END */
+
+/* ABOUT START */
+.about {
+	width: 100%;
+	height: 400px;
+	background-color:#3a539b;
+	text-align: center;
+}
+
+#about_title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.about_left {
+	float: left;
+	width: 50%;
+	height: 200px;
+	/*background-color: salmon;*/
+	text-align: justify;
+	color: #fff;
+	border-right: 0.5px solid #fff;
+	padding: 30px;
+}
+
+.about_right {
+	float: right;
+	width: 50%;
+	height: 200px;
+	/*background-color: green;*/
+	text-align: justify;
+	color: #fff;
+	border-left: 0.5px solid #fff;
+	padding: 30px;	
+}
+
+.about_icons {
+	margin-top: 40px;
+}
+
+.about_icons a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+	margin-right: 20px;
+}
+
+.about_icons a:hover {
+	color: #fff;
+	transition: 0.3s ease;
+}
+
+.about_right button {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	background-color: transparent;
+	width: 150px;
+	height: 50px;
+	margin-top: 30px;
+}
+
+
+.about_right button:hover {
+	background-color: #eee;
+	transition: 0.3s ease;
+}
+/* ABOUT END */
+
+/* CARD PORT START */
+.card_port {
+	width: 100%;
+	height: 1600px;
+	/*background-color: green;*/
+	text-align: center;
+}
+
+#card_title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: 400;
+}
+
+.card_left {
+	float: left;
+	width: 50%;
+	height: 350px;
+	/*background-color: red;*/
+}
+
+.card_left img {
+	width: 500px;
+	height: 300px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.card_right {
+	float: right;
+	width: 50%;
+	height: 350px;
+	/*background-color: blue;*/
+	text-align: justify;
+	padding: 30px;
+}
+
+.card_desc {
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-color: #eee;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card_desc p {
+	padding-top: 7px;
+	color: #3a539b;
+}
+
+.card_right button {
+	background-color: #3a539b;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	color: #fff;
+	border: unset;
+	border-radius: 10px;
+	width: 150px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+
+.card_right button:hover {
+	background-color: #2C4079;
+	box-shadow: none;
+	transition: 0.3s ease;
+}
+
+/* CARD PORT END */
+
+/* OFFER START */
+.offer {
+	width: 100%;
+	/*background-color: #3a539b;	*/
+}
+
+.offer_container {
+	background-color: #3a539b;
+	height: 150px;	
+	border-radius: 20px;
+	padding: 60px;
+	color: #fff;
+}
+
+.offer_container h2{
+	font-weight: 600;
+}
+
+.offer_buttons{
+	float: right;
+	/*background-color: salmon;*/
+	margin-top: -60px;
+}
+
+.offer_buttons button {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	background-color: transparent;
+	width: 200px;
+	margin-left: 10px;
+	height: 60px;
+}
+
+
+.offer_buttons button:hover {
+	background-color: #eee;
+	transition: 0.3s ease;
+}
+
+#offer_email {
+	background-color: #fff;
+	color: #3a539b;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border: unset;
+}
+
+#offer_email:hover {
+	background-color: #eee;
+	box-shadow: none;
+	transition: 0.3s ease;
+}
+/* OFFER END */
+
+/* TOOLS START */
+.tools_desc {
+	width: 100%;
+	text-align: center;
+}
+
+#tools_title {
+	padding-top: 100px;
+	padding-bottom: 40px;
+	font-weight: 400;
+	color: #323232;
+}
+
+.tools_img {
+	width: 650px;
+	height: 300px;
+	/*background-color: salmon;*/
+	margin: 0 auto;
+}
+
+.tools_img p {
+	margin-bottom: 40px;
+}
+
+.tools_img img {
+	width: 48px;
+	height: 48px;
+	margin: 10px;
+	object-fit: cover;
+	filter: grayscale(100%);
+}
+
+.tools_img img:hover {
+	filter: none;
+	transition: 0.3s ease;
+}
+/* TOOLS END */
+
+/* CONTACT START */
+.contact_container {
+	margin-top: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+.contact_desc {
+	background-color: #3a539b;
+	color: #fff;
+	width: 850px;
+	height: 350px;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.contact_desc h2 {
+	margin-top:  -20px;
+	font-weight: 800;
+}
+
+.contact_profile {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	/*background-color: salmon;*/
+}
+
+.contact_profile img {
+	margin-top: -60px;
+	width: 100%;
+	border-radius: 50%;
+	border: 6px solid #fff;
+}
+
+.contact_buttons{
+	/*background-color: salmon;*/
+	margin-top: 40px;
+}
+
+.contact_buttons button {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	background-color: transparent;
+	width: 200px;
+	margin-left: 10px;
+	height: 60px;
+}
+
+
+.contact_buttons button:hover {
+	background-color: #eee;
+	transition: 0.3s ease;
+}
+
+#contact_email {
+	background-color: #fff;
+	color: #3a539b;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border: unset;
+}
+
+#contact_email:hover {
+	background-color: #eee;
+	box-shadow: none;
+	transition: 0.3s ease;
+}
+/* CONTACT END */
+
+/* FOOTER START */
+.footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	/*background-color: green;*/
+	color: #b2b1b9;
+}
+/* FOOTER END */
+
+span {
+	color: #3a539b;
+}
+
+@media(max-width: 1024px) {
+	.card_left img {
+		width: 420px;
+	}
+
+	.offer_container h2 {
+		font-size: 30px;
+	}
+
+	.offer_buttons button {
+		width: 170px;
+	}
+}
+
+@media(max-width: 768px) {
+    .jumbotron-fluid {
+    	height: 400px;
+    }
+
+    .hero_icons {
+    	float: none;
+    }
+
+    .hero_left {
+    	float: left;
+    	/*background-color: red;*/
+    	width: 100%;
+    }
+
+    .profile {
+    	float: none;
+    	margin: 0 auto;
+    	margin-top: -100px;
+    }
+
+    .profile_text {
+    	float: none;
+    	text-align: center;
+    	margin-top: 20px;
+    }
+
+    .profile_text .profesi {
+    	float: none;
+    	margin: 0 auto;
+    	margin-top: 20px;
+    }
+
+    .hero_right {
+    	/*background-color: green;*/
+    	float: left;
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .hero_right button {
+    	margin-top: 20px;
+    }
+
+    .gallery_design {
+    	width: 100%;
+    	margin-top: 200px;
+    }
+
+    .about {
+    	height: 600px;
+    	margin-top: 40px;
+    }
+    .about_left {
+    	float: left;
+    	/*background-color: red;*/
+    	width: 100%;
+    	border:none;
+    	border-bottom: 0.5px solid #fff;
+    	text-align: center;
+    	padding: 0;
+    }
+
+    .about_left p, .about_right p {
+    	text-align: justify;
+    }
+
+    .about_right {
+    	float: left;
+    	width: 100%;
+    	/*background-color: green;*/
+    	border:none;
+    	border-top: 0.5px solid #fff;
+    	text-align: center;
+    	padding: 0;
+    	padding-top: 60px;
+    }
+
+    .card_port {
+    	height: 3200px;
+    }
+
+    .card_left {
+    	float: left;
+    	width: 100%;
+    	height: 400px;
+    	/*background-color: red;*/
+    	text-align: center;
+    }
+
+    .card_left img {
+    	width: 90%;
+    	height: 400px;
+    }
+
+     .card_right {
+     	float: left;
+     	width: 100%;
+     	/*background-color: yellow;*/
+     }
+
+     .offer_container {
+     	height: 300px;
+     	text-align: center;
+     }
+
+     .offer_buttons {
+     	float: none;
+     	margin-top: 0;
+     	padding-top: 40px;
+     }
+
+     .tools_img {
+     	width: 100%;
+     }
+
+     .contact_desc {
+     	width: 100%;
+     }
+}
+
+@media(max-width: 425px) {
+	.what_is_desc {
+		width: 100%;
+		height: 300px;
+	}
+
+	 .about {
+	 	height: 600px;
+	 }
+	 
+	 .about_left  {
+	 	height: 200px;
+	 	padding: 0;
+	 }
+
+	 .about_right {
+	 	padding: 0;
+	 	padding-top: 30px;
+	 }
+
+	 .about_left p, .about_right p {
+	 	text-align: justify;
+	 }
+
+	 .card_port {
+	 	height: 2600px;
+	 }
+
+	  .card_left {
+	  	height: 270px;
+	  }
+
+	 .card_left img {
+	 	width: 100%;
+	 	height: 270px;
+	 }
+
+	 .card_right {
+	 	padding: 0;
+	 	padding-top: 30px;
+	 }
+
+	.offer_container {
+		height: 350px;
+		padding: 40px;
+	}
+
+	.offer_buttons button {
+		margin-top: 10px;
+	}
+
+	 .contact_desc {
+	 	margin-top: 150px;
+	 	height: 470px;
+	 }
+
+	 .contact_buttons button {
+	 	margin-top: 10px;
+	 }
+
+	 .tools_img p {
+	 	text-align: justify;
+	 }
+}
+
+@media(max-width: 375px) {
+	  .card_left {
+	  	height: 250px;
+	  }
+
+	 .card_left img {
+	 	width: 100%;
+	 	height: 250px;
+	 }
+} 
