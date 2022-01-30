@@ -2,6 +2,10 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 /* WHAT IS START */
 #what_is {
 	width: 100%;
