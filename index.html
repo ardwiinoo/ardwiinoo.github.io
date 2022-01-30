@@ -1,246 +1,283 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="shortcut icon" href="./IMG/icon.png" type="image/x-icon">
+    <meta name="description" content="Website Portfolio Arif Dwi Nugroho"/>
+
+    <!-- Icons -->
+    <link rel="icon" href="./assets/img/icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="./assets/css/gallery-grid.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>ardwiinoo</title>
+  </head>
+  <body>
 
-    <!-- CSS Local -->
-    <link rel="stylesheet" href="./CSS/style.css">
-
-    <!-- CSS LIGHTBOX -->
-    <link rel="stylesheet" href="./CSS/lightbox.min.css">
-
-    <!-- ICON -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
-<body>
-    <div id="info">
-        <div class="cinfo">
-            <button onclick="hide()"><i class="fas fa-times fa-2x"></i></button>
-            <h3>Apa itu ardwiinoo?</h3>
-            <p><b>ardwiinoo</b> adalah singkatan yang saya ambil dari nama saya sendiri yaitu dari <b>Ar</b>if <b>Dwi</b> <b>N</b>ugr<b>o</b>h<b>o</b> Walaupun kedengarannya agak aneh atau bahkan <i>cringe</i>, tapi ya saya suka menggunakan nama itu XD.</p>
+    <!-- What_is Start -->
+    <div id="what_is">
+      <div class="container">
+        <div class="what_is_desc">
+          <h4><b>Apa itu ardwiinoo?</b></h4>
+          <button onclick="show();"><i class="fa fa-times fa-2x"></i></button>
+          <p><b>ardwiinoo</b> adalah singkatan yang saya ambil dari nama saya sendiri yaitu dari <b>Ar</b>if <b>Dwi</b> <b>N</b>ugr<b>o</b>h<b>o</b> Walaupun kedengarannya agak aneh atau bahkan <i>cringe</i>, tapi ya saya suka menggunakan nama itu XD.</p>
         </div>
+      </div>
     </div>
-    <div class="wrapper">
-        <div class="top">
-            <div class="hero">
-               <div class="titlebtn">
-                   <button id="titlebtn" onclick="show()">ardwiinoo</button>
-               </div>                
-               <div class="social">
-                    <button>
-                        <a href="https://www.linkedin.com/in/arif-dwi-nugroho-596a951b2" target="blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                    </button>
-                    <button>
-                        <a href="https://dribbble.com/ardwino_" target="blank"><i class="fab fa-dribbble fa-2x"></i></a>
-                    </button>
-                    <button>
-                        <a href="https://web.facebook.com/ardwiinoo/" target="blank"><i class="fab fa-facebook-f fa-2x"></i></a>
-                    </button>
-                    <button>
-                        <a href="https://github.com/ardwiinoo" target="blank"><i class="fab fa-github fa-2x"></i></a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="bot">
-            <div class="profile">
-               <div class="gambar">
-                <img src="./IMG/1080-blck1.png" alt="Arif Dwi Nugroho" loading="lazy">
-                <div class="centang">
-                    <i class="fas fa-check fa-2x"></i>
-                </div>
-               </div>
-              <div class="nick">
-                  <h1>Arif <span>Dwi</span> Nugroho</h1>
-                  <div class="job">
-                      <p><span>Developer</span></p>
-                  </div>
-              </div>
-            </div>
-            <div class="download">
-                <button>
-                    <a href="#"><i class="fas fa-download fa-lg"></i> Download CV</a>
-                  </button>
-            </div>
-        </div>
-    </div>
-    
-    <div class="wrapper2">
-        <div class="galery">
-            <div class="project1">
-                <a
-            href="./IMG/project1.png"
-            data-lightbox="mygallery"
-            data-title="Selfie Contest App Design">
-            <img src="./IMG/project1.png" alt="Desain" loading="lazy" data-lightbox="image-1"
-          /></a>
-            </div>
-            <div class="project2">
-                <a
-                href="./IMG/project2.png"
-                data-lightbox="mygallery"
-                data-title="Vacation App Design">
-                <img src="./IMG/project2.png" alt="Desain" loading="lazy" data-lightbox="image-1"
-              /></a>
-            </div>
-            <div class="project3">
-                <a
-                href="./IMG/project3.png"
-                data-lightbox="mygallery"
-                data-title="Online Courses App Design">
-                <img src="./IMG/project3.png" alt="Desain" loading="lazy" data-lightbox="image-1"
-              /></a>
-            </div>
-            <div class="project4">
-                <a
-                href="./IMG/project4.png"
-                data-lightbox="mygallery"
-                data-title="Gaming Market App Design">
-                <img src="./IMG/project4.png" alt="Desain" loading="lazy" data-lightbox="image-1"
-              /></a>
-            </div>
-            <div class="project5">
-                <a
-                href="./IMG/project5.png"
-                data-lightbox="mygallery"
-                data-title="Online Courses Web Design">
-                <img src="./IMG/project5a.png" alt="Desain" loading="lazy" data-lightbox="image-1"
-              /></a>
-            </div>
-            <div class="project6">
-                <a href="https://dribbble.com/ardwino_" target="blank"><i class="fas fa-chevron-circle-right fa-5x"></i></a>
-                <p>Lebih Banyak</p>
-            </div>
-        </div>
-    </div>
+    <!-- What_is End -->
 
-    <div class="wrapper3">
-        <div class="title">
-            <h1>Tentang Saya</h1>
-        </div>
-        <div class="left">
-            <div class="cleft">
-                <p>Saya seorang mahasiswa informatika yang mempelajari bagaimana suatu masalah dapat diimplementasikan sebagai solusi dalam sebuah program yang berguna bagi orang lain.</p>
-                <div class="clsocial">
-                    <button>
-                        <a href="https://www.linkedin.com/in/arif-dwi-nugroho-596a951b2" target="target"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                    </button>
-                    <button>
-                        <a href="https://dribbble.com/ardwino_" target="blank"><i class="fab fa-dribbble fa-2x"></i></a>
-                    </button>
-                    <button>
-                        <a href="https://web.facebook.com/ardwiinoo/" target="blank"><i class="fab fa-facebook-f fa-2x"></i></a>
-                    </button>
-                    <button>
-                        <a href="https://github.com/ardwiinoo" target="blank"><i class="fab fa-github fa-2x"></i></a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="right">
-            <div class="cright">
-                <p>Saya juga pernah mengalami sebagai blogger yang suka berbagi hal-hal random dan suka mendesain ulang template blogger.</p>
-                    <div class="crbutton">
-                        <button><a href="https://rifnutech.blogspot.com/" target="blank">Lihat Blog Saya <i class="fas fa-long-arrow-alt-right"></i></a></button>
-                    </div>
-            </div> 
-        </div>
+    <!-- Hero Start -->
+    <div class="hero_container">
+      <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+         <div>
+            <button class="btn text-light" data-toggle="tooltip" data-placement="top" title="What is ardwiinoo?" onclick="show();"><h1>ardwiinoo</h1></button>
+            <p>Welcome to my portfolio website, Have fun :)</p>
+         </div>
+          <div class="hero_icons">
+           <a href="https://bit.ly/ArifLinkedin" target="blank"><i class="fa fa-linkedin fa-2x" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+           <a href="https://dribbble.com/ardwino_" target="blank"><i class="fa fa-dribbble fa-2x" data-toggle="tooltip" data-placement="top" title="Dribbble"></i></a>
+           <a href="https://www.instagram.com/ardwino_/" target="blank"><i class="fa fa-instagram fa-2x" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
+           <a href="#"><i class="fa fa-facebook fa-2x" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+           <a href="https://github.com/ardwiinoo" target="blank"><i class="fa fa-github fa-2x" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+          </div>
+        </div>    
+      </div>
     </div>
-
-    <div class="wrapper4">
-        <div class="cwrapper4">
-            <h1>Dengan <span>Studi</span> Kasus</h1>
-            <div class="cbox">
-                <img src="./IMG/sk.png" alt="Pesona Klaten" loading="lazy">
-                <h2>Pesona Klaten Landing Page</h2>
-                <div class="cat">
-                    <p><span>Website</span></p>
-                </div>
-                <p>Karena saya melihat masih banyak masyarakat yang tidak mengetahui tentang kota Klaten, mulai dari budaya hingga destinasi wisata yang ada di dalamnya. 
-                    <br>Maka saya memutuskan untuk membuat sebuah <i>landing page website</i> yang bertujuan untuk memperkenalkan kota Klaten kepada publik dan untuk mengasah skill saya, Dibuat dengan HTML, CSS dan Bootsrap 4.</p>
-                <button><a href="https://ardwiinoo.github.io/klatenesia/" target="blank">Lihat Website <i class="fas fa-long-arrow-alt-right"></i></a></button>
+    <div class="hero_container_bot">
+      <div class="container">
+        <div class="hero_left">
+          <div class="profile">
+            <img src="./assets/img/profil.jpg" alt="Arif Dwi Nugroho">
+          </div>
+          <div class="profile_text ml-3 text-dark">
+            <h2><b>Arif <span>Dwi</span> Nugroho</b></h2>
+            <div class="profesi">
+              <p>Programmer</p>
             </div>
+          </div>
         </div>
+        <div class="hero_right">
+          <a href="#"><button><i class="fa fa-download fa-lg"></i> Download CV</button></a>
+        </div>
+      </div>
     </div>
+    <!-- Hero End -->
 
-    <div class="wrapper5">
-        <div class="cwrapper5">
-            <h2>Tertarik Bekerja Dengan Saya?</h2>
-            <div class="csocial5">
-                <button id="lbtn">
-                    <a href="#"><i class="fas fa-download fa-lg"></i> Download CV</a>
-                  </button>
-                  <button id="rbtn">
-                    <a href="mailto:ardwiinoo@gmail.com?subject=Halo%20mari%20Bekerjasama%21&body=Saya%20ingin..."><i class="fas fa-envelope fa-lg"></i> Email Me</a>
-                  </button>
+    <!-- Gallery Start -->
+    <div class="gallery_design">
+      <div class="container">
+        <div class="tz-gallery">
+          <div class="row">
+            <div class="col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1000">
+              <a class="lightbox" href="./assets/img/project1.png">
+                <img src="./assets/img/project1.png" alt="Park">
+              </a>
             </div>
+            <div class="col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000">
+              <a class="lightbox" href="./assets/img/project2.png">
+                <img src="./assets/img/project2.png" alt="Bridge">
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="3000">
+              <a class="lightbox" href="./assets/img/project3.png">
+                <img src="./assets/img/project3.png" alt="Tunnel">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1000">
+              <a class="lightbox" href="./assets/img/project4.png">
+                <img src="./assets/img/project4.png" alt="Coast">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000">
+              <a class="lightbox" href="./assets/img/project5.png">
+                <img src="./assets/img/project5a.png" alt="Rails">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="3000">
+              <a class="lightbox" href="./assets/img/project6.png">
+                <img src="./assets/img/project6.png" alt="Traffic">
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+    <!-- Gallery End -->
 
-    <div class="wrapper6">
-        <h1>Alat <span>Yang Saya</span> Gunakan</h1>
-        <div class="cabout6">
-            <p>Beberapa alat yang saya gunakan untuk membuat atau mengimplementasikan desain. Alat akan bertambah seiring waktu karena saya suka mempelajari hal-hal baru dan meningkatkan keterampilan saya.</p>
+    <!-- About Start -->
+    <div class="about">
+      <div class="container">
+        <h2 id="about_title"><b>Tentang Saya</b></h2>
+        <div class="about_left">
+          <p>Saya seorang mahasiswa informatika yang mempelajari bagaimana suatu masalah dapat diimplementasikan sebagai solusi dalam sebuah program yang berguna bagi orang lain.</p>
+          <div class="about_icons">
+            <a href="https://bit.ly/ArifLinkedin" target="blank"><i class="fa fa-linkedin fa-2x" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+            <a href="https://dribbble.com/ardwino_" target="blank"><i class="fa fa-dribbble fa-2x" data-toggle="tooltip" data-placement="top" title="Dribbble"></i></a>
+            <a href="https://www.instagram.com/ardwino_/" target="blank"><i class="fa fa-instagram fa-2x" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook fa-2x" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+            <a href="https://github.com/ardwiinoo" target="blank"><i class="fa fa-github fa-2x" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+          </div>
         </div>
-        <div class="cwrapper6">
-            <div class="cimg6" id="mb">
-                <img src="./IMG/figma.png" alt="Figma">
-            </div>
-            <div class="cimg6">
-                <img src="./IMG/pscs6.png" alt="Adobe Photoshop">
-            </div>
-            <div class="cimg6">
-                <img src="./IMG/adobe-xd.png" alt="Adobe XD">
-            </div>
-            <div class="cimg6">
-                <img src="./IMG/bs.png" alt="Bootstrap">
-            </div>
-            <div class="cimg6" id="mb">
-                <img src="./IMG/vscode.png" alt="Visual Studio Code">
-            </div>
-            <div class="cimg6">
-                <img src="./IMG/xampp.png" alt="Xampp">
-            </div>
-            <div class="climg6">
-                <img src="./IMG/logo-mysql-170x115.png" alt="MySQL">
-            </div>
+        <div class="about_right">
+          <p>Saya juga pernah mengalami sebagai blogger yang suka berbagi hal-hal random dan suka mendesain ulang template blogger.</p>
+          <a href="https://nullpointer.netlify.app/" target="blank"><button><i class="fa fa-external-link  fa-lg"></i> Lihat Blog</button></a>
         </div>
+      </div>
     </div>
+    <!-- About End -->
 
-    <div class="wrapper7">
-        <div class="iwrapper7">
-            <div class="profile7">
-                <img src="./IMG/1080-blck1.png" alt="Arif Dwi Nugroho">
+    <!-- Card Start -->
+    <div class="card_port">
+      <div class="container text-dark">
+        <h2 id="card_title"><b>Dengan <span>Studi</span> Kasus</b></h2>
+        <div>
+          <div class="card_left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="./assets/img/klatenesia.png" alt="Website">
+          </div>
+          <div class="card_right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h3>Pesona Klaten</h3>
+            <div class="card_desc">
+              <p>Coding Implementation</p>
             </div>
+            <p>Website landing page sederhana yang dibuat berdasarkan kampung halaman saya</p>
+            <a href="https://ardwiinoo.github.io/klatenesia/" target="blank"><button>Lebih Banyak <i class="fa fa-arrow-right fa-lg"></i></button></a>
+          </div>
         </div>
-        <div class="cwrapper7">
-            <h2>Ayo wujudkan ide kita</h2>
-                <p>Hubungi saya di:</p>
-                <div class="social7">
-                    <button id="lbtn7">
-                        <a href="https://www.linkedin.com/in/arif-dwi-nugroho-596a951b2" target="blank"><i class="fab fa-linkedin-in fa-lg"></i> LinkedIn</a>
-                    </button>
-                    <button id="rbtn7">
-                        <a href="mailto:ardwiinoo@gmail.com?subject=Halo%20mari%20Bekerjasama%21&body=Saya%20ingin..."><i class="fas fa-envelope fa-lg"></i> Email</a>
-                      </button>
-                </div>
+        <div>
+          <div class="card_left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="./assets/img/lspdigital.png" alt="Website">
+          </div>
+          <div class="card_right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h3>LSP Digital Clone</h3>
+            <div class="card_desc">
+              <p>Coding Implementation</p>
+            </div>
+            <p>Website yang dibuat untuk memenuhi tugas sewaktu mengikuti pelatihan online dan sertifikasi BPPTIK KOMINFO</p>
+            <a href="https://ardwiinoo.github.io/lspdigital-clone/" target="blank"><button>Lebih Banyak <i class="fa fa-arrow-right fa-lg"></i></button></a>
+          </div>
         </div>
+        <div>
+          <div class="card_left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="./assets/img/chatdosen.png" alt="Website">
+          </div>
+          <div class="card_right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h3>Chat Dosen Tools</h3>
+            <div class="card_desc">
+              <p>Coding Implementation</p>
+            </div>
+            <p>Sebuah tool generator pesan whatsapp untuk memudahkan mahasiswa ketika hendak menghubungi dosen terkait</p>
+            <a href="https://chatdosen.ga/" target="blank"><button>Lebih Banyak <i class="fa fa-arrow-right fa-lg"></i></button></a>
+          </div>
+        </div>
+        <div>
+          <div class="card_left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="./assets/img/market.png" alt="Website">
+          </div>
+          <div class="card_right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h3>Market Management</h3>
+            <div class="card_desc">
+              <p>Coding Implementation</p>
+            </div>
+            <p>Website pelayanan transaksi untuk sebuah minimarket, dilengkapi dashboard admin dan pelanggan</p>
+            <a href="#"><button>Lebih Banyak <i class="fa fa-arrow-right fa-lg"></i></button></a>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- Card End -->
 
-    <footer>
+    <!-- Offer Start -->
+    <div class="offer" data-aos="fade-up" data-aos-duration="2000">
+      <div class="container">
+        <div class="offer_container">
+          <h2>Tertarik Bekerja Dengan Saya?</h2>
+          <div class="offer_buttons">
+            <a href="#"><button><i class="fa fa-download fa-lg"></i> Download CV</button></a>
+            <a href="mailto:ardwiinoo@gmail.com"><button id="offer_email"><i class="fa fa-envelope fa-lg"></i> Email Me</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Offer End -->
+
+  <!-- Tools Start -->
+  <div class="tools_desc">
+    <div class="container text-dark">
+      <h2 id="tools_title"><b>Alat <span>Yang Saya</span> Gunakan</b></h2>
+      <div class="tools_img">
+        <p>Beberapa alat yang saya gunakan untuk membuat atau mengimplementasikan desain. Alat akan bertambah seiring waktu karena saya suka mempelajari hal-hal baru dan meningkatkan keterampilan saya.</p>
+        <img src="./assets/img/vscode.png" alt="Visual Studio Code">
+        <img src="./assets/img/pscs6.png" alt="Photoshop CS6">
+        <img src="./assets/img/figma.png" alt="Figma">
+        <img src="./assets/img/adobe-xd.png" alt="Figma">
+        <img src="./assets/img/mysqli.png" alt="Figma">
+        <img src="./assets/img/git.png" alt="Figma">
+        <img src="./assets/img/bs.png" alt="Figma">
+        <img src="./assets/img/xampp.png" alt="Xampp">
+        <img src="./assets/img/firebase.png" alt="Xampp">
+      </div>
+    </div>
+  </div>
+  <!-- Tools End -->
+
+  <!-- Contact Start -->
+  <div class="contact_container" data-aos="fade-up" data-aos-duration="2000">
+    <div class="container">
+      <div class="contact_desc">
+        <div class="contact_profile">
+            <img src="./assets/img/profil.jpg" alt="Arif Dwi Nugroho">
+        </div>
+        <h2>Ayo wujudkan ide kita Menjadi Nyata</h2>
+        <p>Jangkau saya di:</p>
+        <div class="contact_buttons">
+            <a href="https://bit.ly/ArifLinkedin" target="blank"><button><i class="fa fa-linkedin fa-lg"></i> Linkedin</button></a>
+            <a href="mailto:ardwiinoo@gmail.com"><button id="contact_email"><i class="fa fa-envelope fa-lg"></i> Email Me</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact End -->
+
+  <!-- Footer Start -->
+  <div class="footer">
+    <div class="container">
+      <footer>
         <p>&copy; Develop by Arif Dwi Nugroho</p>
-    </footer>
+      </footer>
+    </div>
+  </div>
+  <!-- Footer End -->
 
-    <!-- JS LIGHTBOX -->
-    <script src="./JS/lightbox-plus-jquery.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- JS INFO -->
-    <script src="./JS/notif.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      baguetteBox.run('.tz-gallery');
+      AOS.init();
+    </script>
+
+    <script src="./assets/js/what_is.js"></script>
+  </body>
 </html>
